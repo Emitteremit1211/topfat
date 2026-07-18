@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import Hero from '../Components/Hero'
-import ExhibitionShowcase from '../Components/ExhibitionShowcase'
-import Footer from '../Components/Footer'
-import Testimonials from '../Components/Testimonials'
-import FeaturedArtists from '../Components/FeaturedArtists'
-import Ctabanner from '../Components/Ctabanner'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import ExhibitionShowcase from '../components/ExhibitionShowcase'
+import Footer from '../components/Footer'
+import Testimonials from '../components/Testimonials'
+import FeaturedArtists from '../components/FeaturedArtists'
+import Ctabanner from '../components/Ctabanner'
 
 const Homepage = () => {
   return (

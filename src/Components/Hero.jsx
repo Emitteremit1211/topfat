@@ -30,24 +30,24 @@ const Hero = () => {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Background Video */}
-<div className="absolute inset-0 z-0">
-  <video
-    ref={videoRef}
-    autoPlay
-    muted
-    playsInline
-    onEnded={handleVideoEnd}
-    className={`w-full h-full object-cover absolute inset-0 z-0 transition-opacity duration-700 ${fade ? "opacity-0" : "opacity-100"}`}
-  >
-    <source src={videos[currentVideo]} type="video/mp4" />
-  </video>
-  
-  {/* Black Fade Overlay */}
-  <div className={`absolute inset-0 bg-black transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}></div>
-  
-  {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-black/40 to-black/10"></div>
-</div>
+      <div className="absolute inset-0 z-0">
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          playsInline
+          onEnded={handleVideoEnd}
+          className={`w-full h-full object-cover absolute inset-0 z-0 transition-opacity duration-700 ${fade ? "opacity-0" : "opacity-100"}`}
+        >
+          <source src={videos[currentVideo]} type="video/mp4" />
+        </video>
+
+        {/* Black Fade Overlay */}
+        <div className={`absolute inset-0 bg-black transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}></div>
+
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-black/40 to-black/10"></div>
+      </div>
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
