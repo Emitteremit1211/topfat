@@ -1,11 +1,11 @@
 import './App.css'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import CtaBanner from './components/CtaBanner'
 import Footer from './components/Footer'
 import ExhibitionShowcase from './components/ExhibitionShowcase'
 import FeaturedArtists from './Components/FeaturedArtists'
 import Testimonials from './Components/Testimonials'
+import Ctabanner from './Components/Ctabanner'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <ExhibitionShowcase />
-      <CtaBanner />
+      <Ctabanner />
       <FeaturedArtists/>
       <Testimonials/>
       <Footer />

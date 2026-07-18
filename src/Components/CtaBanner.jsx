@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CtaBanner = () => {
+const Ctabanner = () => {
   return (
     <section className="py-28 bg-[#080808] relative overflow-hidden">
       {/* Background glow */}
@@ -57,4 +57,4 @@ const CtaBanner = () => {
   );
 };
 
-export default CtaBanner;
+export default Ctabanner;
