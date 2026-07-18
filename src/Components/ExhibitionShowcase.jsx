@@ -1,27 +1,27 @@
 import React from 'react';
-import img1 from '../assets/img1.jpg';
-import img2 from '../assets/img2.jpg';
-import img3 from '../assets/img3.jpg';
+import img4 from '../assets/img1.jpg';
+import img5 from '../assets/img2.jpg';
+import img6 from '../assets/img3.jpg';
 
 const exhibitions = [
   {
     name: 'Contemporary Pulse',
     tagline: 'Modern Installations',
-    image: img1,
+    image: img4,
     artist: 'Curated Collection',
     duration: 'Till Dec 2024',
   },
   {
     name: 'Heritage Reflections',
     tagline: 'Traditional & Modern',
-    image: img2,
+    image: img5,
     artist: 'Nigerian Artists',
     duration: 'Ongoing',
   },
   {
     name: 'Digital Canvas',
     tagline: 'New Media Art',
-    image: img3,
+    image: img6,
     artist: 'Emerging Creatives',
     duration: 'Till Sep 2024',
   },
