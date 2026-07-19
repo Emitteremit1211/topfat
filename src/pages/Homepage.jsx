@@ -1,24 +1,21 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
 import ExhibitionShowcase from '../components/ExhibitionShowcase'
-import Footer from '../components/Footer'
-import Testimonials from '../components/Testimonials'
 import FeaturedArtists from '../components/FeaturedArtists'
-import Ctabanner from '../components/Ctabanner'
+import Testimonials from '../components/Testimonials'
+import CtaBanner from '../components/CtaBanner'
+import Footer from '../components/Footer'
 
-const Homepage = () => {
+export default function Homepage() {
   return (
     <>
-    <Navbar />
-    <Hero/>
-    <Ctabanner/>
-    <ExhibitionShowcase/>
-    <FeaturedArtists/>
-    <Testimonials/>
-    <Footer/>
+      <Navbar />
+      <Hero />
+      <ExhibitionShowcase />
+      <FeaturedArtists />
+      <Testimonials />
+      <CtaBanner />
+      <Footer />
     </>
   )
 }
-
-export default Homepage
