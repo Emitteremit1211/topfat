@@ -3,8 +3,8 @@ import Navbar from '../components/Navbar'
 import ExhibitionShowcase from '../components/ExhibitionShowcase'
 import FeaturedArtists from '../components/FeaturedArtists'
 import Testimonials from '../components/Testimonials'
-import CtaBanner from '../components/CtaBanner'
 import Footer from '../components/Footer'
+import Ctabanner from '../Components/Ctabanner'
 
 export default function Homepage() {
   return (
@@ -14,7 +14,7 @@ export default function Homepage() {
       <ExhibitionShowcase />
       <FeaturedArtists />
       <Testimonials />
-      <CtaBanner />
+      <Ctabanner />
       <Footer />
     </>
   )
