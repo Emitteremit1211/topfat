@@ -1,9 +1,9 @@
-import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
-import ExhibitionShowcase from '../components/ExhibitionShowcase'
-import FeaturedArtists from '../components/FeaturedArtists'
-import Testimonials from '../components/Testimonials'
-import Footer from '../components/Footer'
+import Hero from '../Components/Hero'
+import Navbar from '../Components/Navbar'
+import ExhibitionShowcase from '../Components/ExhibitionShowcase'
+import FeaturedArtists from '../Components/FeaturedArtists'
+import Testimonials from '../Components/Testimonials'
+import Footer from '../Components/Footer'
 import Ctabanner from '../Components/Ctabanner'
 
 export default function Homepage() {
