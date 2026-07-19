@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Footer = () => {
-    return (
-        <footer className="bg-[#0a0a0a] border-t border-white/5">
+  return (
+    <footer className="bg-[#0a0a0a] border-t border-white/5">
             <div className="container mx-auto px-6 py-20 ">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     {/* Brand */}
@@ -82,7 +82,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-    )
+  )
 }
 
 export default Footer

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Ctabanner = () => {
   return (
@@ -52,7 +52,7 @@ const Ctabanner = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Ctabanner;
+export default Ctabanner

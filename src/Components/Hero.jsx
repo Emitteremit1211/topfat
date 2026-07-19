@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react'
 import vid1 from '../assets/vid1i.mp4';
 import vid2 from '../assets/vid2i.mp4';
 import vid3 from '../assets/vid3i.mp4';
@@ -26,7 +26,6 @@ const Hero = () => {
       videoRef.current.play().catch(() => { });
     }
   }, [currentVideo]);
-
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Background Video */}
@@ -84,7 +83,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

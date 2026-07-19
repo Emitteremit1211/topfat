@@ -1,8 +1,7 @@
-import React from 'react';
+import React from 'react'
 import Artist1 from '../assets/img4.jpg';
 import Artist2 from '../assets/img5.jpg';
 import Artist3 from '../assets/img6.avif';
-
 const artists = [
   {
     name: 'Kunle Adeyemi',
@@ -78,7 +77,7 @@ const FeaturedArtists = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default FeaturedArtists;
+export default FeaturedArtists

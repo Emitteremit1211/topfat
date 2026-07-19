@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
-
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -27,7 +26,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* NAVBAR */}
+    {/* NAVBAR */}
       <nav
         className={`fixed top-0 left-0 w-full z-[999] transition-all duration-500 ${
           scrolled || isOpen
@@ -121,7 +120,7 @@ const Navbar = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

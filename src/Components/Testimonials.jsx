@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from 'react'
 const testimonials = [
   {
     name: 'Chioma Okafor',
@@ -68,64 +67,66 @@ const Stars = ({ count }) => {
 
 const Testimonials = () => {
   return (
-    <section className="py-28 bg-[#080808] overflow-hidden">
-      <div className="container mx-auto px-6">
-        {/* Header */}
-        <div className="text-center mb-20">
-          <p className="text-xs uppercase tracking-[0.3em] text-amber-400 font-semibold mb-4">What Visitors Say</p>
-          <h2 className="text-5xl md:text-6xl font-black font-display text-white mb-5">
-            Community<br />
-            <span className="text-gradient">Voices.</span>
-          </h2>
-        </div>
+    <>
+      <section className="py-28 bg-[#080808] overflow-hidden">
+        <div className="container mx-auto px-6">
+          {/* Header */}
+          <div className="text-center mb-20">
+            <p className="text-xs uppercase tracking-[0.3em] text-amber-400 font-semibold mb-4">What Visitors Say</p>
+            <h2 className="text-5xl md:text-6xl font-black font-display text-white mb-5">
+              Community<br />
+              <span className="text-gradient">Voices.</span>
+            </h2>
+          </div>
 
-        {/* Testimonial Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {testimonials.map((t, i) => (
-            <div
-              key={i}
-              className="group relative p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:border-amber-500/20 hover:bg-white/[0.04] transition-all duration-400"
-            >
-              <Stars count={t.rating} />
+          {/* Testimonial Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {testimonials.map((t, i) => (
+              <div
+                key={i}
+                className="group relative p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:border-amber-500/20 hover:bg-white/[0.04] transition-all duration-400"
+              >
+                <Stars count={t.rating} />
 
-              <p className="text-gray-300 text-base leading-relaxed mb-8 italic">
-                &ldquo;{t.text}&rdquo;
-              </p>
+                <p className="text-gray-300 text-base leading-relaxed mb-8 italic">
+                  &ldquo;{t.text}&rdquo;
+                </p>
 
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500 to-amber-900 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
-                  {t.avatar}
-                </div>
-                <div>
-                  <p className="font-bold text-white text-sm">{t.name}</p>
-                  <p className="text-gray-600 text-xs">{t.role}</p>
-                  <p className="text-gray-700 text-xs">{t.location}</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500 to-amber-900 flex items-center justify-center text-white font-bold text-sm flex-shrink-0">
+                    {t.avatar}
+                  </div>
+                  <div>
+                    <p className="font-bold text-white text-sm">{t.name}</p>
+                    <p className="text-gray-600 text-xs">{t.role}</p>
+                    <p className="text-gray-700 text-xs">{t.location}</p>
+                  </div>
                 </div>
               </div>
+            ))}
+          </div>
+
+          {/* Trust Bar */}
+          <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center">
+            <div>
+              <p className="text-3xl font-black text-white">4.9/5</p>
+              <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Average Rating</p>
             </div>
-          ))}
-        </div>
-
-        {/* Trust Bar */}
-        <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center">
-          <div>
-            <p className="text-3xl font-black text-white">4.9/5</p>
-            <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Average Rating</p>
-          </div>
-          <div className="hidden md:block w-px h-12 bg-white/10"></div>
-          <div>
-            <p className="text-3xl font-black text-white">2000+</p>
-            <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Happy Visitors</p>
-          </div>
-          <div className="hidden md:block w-px h-12 bg-white/10"></div>
-          <div>
-            <p className="text-3xl font-black text-white">50+</p>
-            <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Artworks Displayed</p>
+            <div className="hidden md:block w-px h-12 bg-white/10"></div>
+            <div>
+              <p className="text-3xl font-black text-white">2000+</p>
+              <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Happy Visitors</p>
+            </div>
+            <div className="hidden md:block w-px h-12 bg-white/10"></div>
+            <div>
+              <p className="text-3xl font-black text-white">50+</p>
+              <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Artworks Displayed</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
-};
+      </section>
+    </>
+  )
+}
 
-export default Testimonials;
+export default Testimonials
