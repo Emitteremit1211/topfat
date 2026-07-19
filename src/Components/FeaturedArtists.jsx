@@ -1,7 +1,7 @@
 import React from 'react';
-import artist1 from '../assets/img4.jpg';
-import artist2 from '../assets/img5.jpg';
-import artist3 from '../assets/img6.avif';
+import Artist1 from '../assets/img4.jpg';
+import Artist2 from '../assets/img5.jpg';
+import Artist3 from '../assets/img6.avif';
 
 const artists = [
   {
